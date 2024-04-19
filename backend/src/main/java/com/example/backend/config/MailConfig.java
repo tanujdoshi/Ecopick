@@ -10,7 +10,7 @@ import org.springframework.mail.javamail.JavaMailSenderImpl;
 @Configuration
 public class MailConfig {
     private static final int PortNumber = 587;
-    private String mailPassword = "wdgd gkpo nlnz noxb";
+    private String mailPassword = "";
 
     @Bean
     JavaMailSender javaMailSender() {
