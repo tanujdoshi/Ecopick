@@ -1,0 +1,6 @@
+.table-responsive {
+    max-height: 300px;
+    /* Set the maximum height of the table */
+    overflow-y: auto;
+    /* Add vertical scrollbar if content overflows */
+}

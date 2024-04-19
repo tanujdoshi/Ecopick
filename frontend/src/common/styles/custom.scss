@@ -1,0 +1,43 @@
+$min-contrast-ratio: 3;
+
+$primary: #2e5d3f;
+
+$secondary: #cde6d6;
+//$secondary: #ecf0fd;
+//$light: #f3f4f6;
+$light: #f9fafb;
+$success: #30b52c;
+$danger: #d50002;
+$warning: #ff9017;
+
+$navbar-toggler-focus-width: 0;
+
+$navbar-light-color: rgba(0, 0, 0, 1) !default;
+$navbar-light-hover-color: rgba(0, 0, 0, 0.55) !default;
+
+$nav-pills-link-active-color: $primary;
+$nav-pills-link-active-bg: $secondary;
+
+$btn-font-weight: 500;
+
+$box-shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+
+@import "../../../node_modules/bootstrap/scss//functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+$custom-colors: (
+  "default": #c9c9c9,
+  "primary-dark": #2e5d3f,
+);
+
+$input-focus-border-color: tint-color($component-active-bg, 0%);
+$input-focus-box-shadow: none;
+$form-select-focus-border-color: $input-focus-border-color;
+$form-select-focus-box-shadow: none;
+$accordion-button-focus-box-shadow: none;
+$accordion-border-width: 0;
+$accordion-button-active-bg: none;
+$accordion-button-active-color: none;
+
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
